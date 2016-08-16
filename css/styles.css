@@ -1,0 +1,7 @@
+.puzzle-output {
+  display: none;
+}
+
+#output-header {
+  font-weight: bold;
+}

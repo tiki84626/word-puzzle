@@ -8,6 +8,21 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <div class="page-header">
+        <h2>Word Puzzle</h2>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="sentence">Please enter your sentence:</label>
+          <input type="text" id="sentence" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Create Puzzle</button>
+      </form>
+      <div class="puzzle-output">
+        <p id="output-header">Here is your puzzle:</p>
+        <p id="sentence-puzzle"></p>
+      </div>
+    </div>
   </body>
 </html>
